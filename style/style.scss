@@ -1,0 +1,62 @@
+@import 'var';
+@import 'flexgrid';
+@import 'header';
+@import 'mainclass';
+@import 'footer';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: block;
+    font-family: $barlow;
+
+    
+
+    main {
+        .mk {
+        @extend %fw;
+        article {
+            width: 50%;
+            height: 600px;   
+        }
+        }  
+        .ct {
+            @extend %fr;
+            padding: 0 7em;
+        }  
+        .im {
+            @extend %fr;
+            
+        }    
+
+        h3 {
+            padding-top: 7em;
+            padding-bottom: 3em;
+            text-align: center;
+            letter-spacing: 0.2em;
+            color: $gblue;
+            text-transform: uppercase;
+            
+        }
+        
+    }
+    
+
+}
+
+h1, h2, h3 {
+    font-family: $frauces700;
+}
+
+ul {
+    list-style-type: none;
+    @extend %fr;
+    
+}
+

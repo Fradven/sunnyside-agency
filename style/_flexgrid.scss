@@ -1,0 +1,23 @@
+%fw {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%fr {
+    display: flex;
+    flex-direction: row;
+}
+
+%fg {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr;
+    grid-template-areas: 
+        "a a"
+        "a a"
+        "a a";
+    
+    section article {
+        grid-area: a;
+    } 
+}

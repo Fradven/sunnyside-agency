@@ -1,0 +1,106 @@
+.egg {
+    background-image: url(/images/photos/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cup {
+    background-image: url(/images/photos/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.txt {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding:0 10em;
+    background-color: $white;
+
+    h2 {
+        color: $vddblue;
+        font-size: 3em;
+    }
+
+    p {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        color: $vdgblue;
+    }
+
+    a {
+        font-family: $frauces700;
+        color: $vddblue;
+    }
+}
+
+.cherry {
+    background-image: url(/images/photos/image-graphic-design.jpg);
+    text-align: center;
+    padding: 0 12em;
+    padding-top: 24em;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-bottom: 1.1em;
+        color: $dkblue;
+        font-size: 2em;
+    }
+
+    p {
+        color: $dkblue;
+    }
+    
+}
+
+.orange {
+    background-image: url(/images/photos/image-photography.jpg);
+    text-align: center;
+    padding: 0 12em;
+    padding-top: 24em;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-bottom: 1.1em;
+        color: $dkblue;
+        font-size: 2em;
+    }
+
+    p {
+        color: $dkblue;
+    }
+
+}
+
+.iner {
+    padding: 0 4em;
+    text-align: center;
+    
+    img {
+        border-radius: 50%;
+        width: 80px;
+    }
+
+    .comment {
+        padding: 3em 0;
+        color: $dkblue;
+    }
+
+    h4 {
+        font-family: $frauces700;
+    }
+
+    .title  {
+        padding-top: 1em;
+        padding-bottom: 12em;
+        color: $gblue;
+        font-size: 0.9em;
+    }
+} 
+
+.im {
+    img {
+        width: 360px;
+    }
+}

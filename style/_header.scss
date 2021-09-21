@@ -1,0 +1,51 @@
+header {
+    margin: 0 auto;
+    background-image: url(/images/photos/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+    a {
+        margin: 1em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    nav .mainMenu li a {
+        color: $white;
+        display: inline-block;
+        padding: 10px;
+        margin: 1em;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $white;
+            color: $vddblue;
+            border-radius: 22px;
+            transition: all .2s linear;
+        }
+    }
+
+    .mh {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            padding: 1em;
+            font-size: 62px;
+            letter-spacing: 0.2em;
+        }
+
+        img {
+
+            margin-bottom: 17em;
+        }
+    }
+    
+}
