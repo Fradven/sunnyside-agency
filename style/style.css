@@ -115,6 +115,9 @@ header .mh img {
 .txt a {
   font-family: "Fraunces", serif;
   color: #23303e;
+  text-decoration: underline;
+  -webkit-text-decoration-color: yellow;
+          text-decoration-color: yellow;
 }
 
 .cherry {
