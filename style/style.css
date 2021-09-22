@@ -209,6 +209,21 @@ footer ul {
           justify-content: center;
 }
 
+footer ul .about {
+  padding: 0 1.5em;
+  padding-bottom: 3em;
+  font-family: "Barlow", sans-serif;
+  color: #19536b;
+}
+
+footer ul .social {
+  padding: 0 0.5em;
+}
+
+footer img {
+  padding: 2em 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
